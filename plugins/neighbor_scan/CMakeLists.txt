@@ -1,0 +1,4 @@
+add_library(frego_plugin_neighbor_scan neighbor_scan.cpp)
+target_include_directories(frego_plugin_neighbor_scan PUBLIC include)
+target_link_libraries(frego_plugin_neighbor_scan PUBLIC frego_core frego_platform frego_net)
+frego_warnings(frego_plugin_neighbor_scan)

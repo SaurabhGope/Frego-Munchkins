@@ -1,0 +1,9 @@
+/build/
+/.cache/
+compile_commands.json
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+CLAUDE.md
+.claude/

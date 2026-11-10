@@ -1,0 +1,4 @@
+add_library(frego_plugin_identity identity.cpp resolver.cpp)
+target_include_directories(frego_plugin_identity PUBLIC include)
+target_link_libraries(frego_plugin_identity PUBLIC frego_core frego_domain frego_net)
+frego_warnings(frego_plugin_identity)
